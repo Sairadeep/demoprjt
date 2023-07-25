@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "749960239382",
+    "project_id": "fir-727b8",
+    "storage_bucket": "fir-727b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:749960239382:android:c24c48f3faa3952bfa5837",
+        "android_client_info": {
+          "package_name": "com.turbotechnologies.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "749960239382-0l3q764um07e7ujjg5cq4vlpsm01daf3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMMyVhEXe9v9a295-zOaMsjdSwjfGC0JA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "749960239382-0l3q764um07e7ujjg5cq4vlpsm01daf3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
