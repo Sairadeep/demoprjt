@@ -7,21 +7,21 @@ import modal.demoRepository
 
 class dataViewModal(private val demo: demoRepository = demoRepository()) : ViewModel() {
 
-    private val userName = MutableLiveData<String>()
+    val userInfo = MutableLiveData<List<Map<String,String>>>()
 
-    val userNamed: LiveData<String>
-        get() = userName
+    val userDetails: LiveData<List<Map<String,String>>>
+        get() = userInfo
 
-    private val userGmail = MutableLiveData<String>()
-
-    val email: LiveData<String>
-        get() = userGmail
-
-    fun data() {
-        demo.dataFetch { username, userEmail ->
-            userName.value = username
-            userGmail.value = userEmail
+       fun data(){
+        demo.dataFetch { usersData ->
+            userInfo.value = usersData
         }
+
+
+//        demo.dataFetch { username, userEmail ->
+//            userName.value = username
+//            userGmail.value = userEmail
+//        }
     }
 
 }
